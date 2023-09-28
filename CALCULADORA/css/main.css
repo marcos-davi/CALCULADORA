@@ -25,6 +25,47 @@ body {
 }
 
 .pantalla{
-    grid-column: 1/5;
-
+    grid-column: 1/-1;
+    background-color: #090c31;
+    padding:1.5rem;
+    font-size: 2rem;
+    text-align: right;
+    overflow: hidden;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    font-family: monospace;
+    font-weight: 600;
+   
 }
+
+.btn{
+    background-color: #15173c;
+    color: white;
+    border: 0;
+    padding: 1.5rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #151731;  
+}
+
+#cero{
+    grid-column: span 2;
+}
+
+#igual{
+    grid-row: span 2;
+    background-color: #e6394a;
+}
+
+#igual:hover{
+    background-color: #e65766;
+}
+
+
+
